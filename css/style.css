@@ -8,7 +8,7 @@ h1,h2{
 
 body{
     color:  rgba(0, 0, 0, 0.986);
-    background-color: rgba(23, 231, 231, 0.986);
+    background-color: rgba(186, 240, 237, 0.986);
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
@@ -33,7 +33,7 @@ img{
 
 body{
     margin: 80px;
-    border: 10px solid #0d6e6e;
+    border: 10px solid #048286;
     border-radius: 25px;
 
 }
@@ -47,4 +47,31 @@ iframe{
     padding: 5px;
     
 }
+
+#L{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 150%;
+}
+
+.U{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 145%;
+}
+
+a{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 100%;
+    background-color: #048286;
+    font-weight: bold;
+    text-decoration: none;
+    color: #fff;
+    padding: 8px 15px;
+    border-radius: 20px;
+
+}
+
+
+
+
+
 

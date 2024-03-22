@@ -19,6 +19,7 @@ p{
     font-size: large;
     font-family: Georgia, 'Times New Roman', Times, serif;
 
+
 }
 
 img{
@@ -68,6 +69,7 @@ a{
     padding: 8px 15px;
     border-radius: 20px;
 
+
 }
 
 .N{
@@ -77,6 +79,9 @@ a{
 
 }
 
+a:hover{
+    color: rgba(186, 240, 237, 0.986);
+}
 
 
 

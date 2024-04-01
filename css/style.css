@@ -83,6 +83,67 @@ a:hover{
     color: rgba(186, 240, 237, 0.986);
 }
 
+nav.menu-lateral{
+    width: 80px;
+    height: 100%;
+    background-color: rgba(93, 95, 95, 0.986);
+    padding: 40px 0 40px 1%;
+    box-shadow: 3px 0 0 #048286;
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    transition: 2s;
+}
+nav.menu-lateral:hover{
+    width: 300px;
+
+}
+
+.btn-expandir{
+    width: 100%;
+    padding-left: 10px;
+}
+.btn-expandir > i{
+    color:#048286;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+ul{
+    height: 100%;
+    list-style-type: none;
+
+}
+
+ul li.item-menu:hover{
+    background-color: #44dfd2e0;
+}
+
+ul li.item-menu a{
+    color:#000000;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 20px 4%;
+    display: flex;
+    line-height: 40px;
+
+}
+
+ul li.item-menu a.txt-link{
+    margin-left: 40px;
+
+}
+
+ul li.item-menu a.icon > i{
+    font-size: 30px;
+    color: #000000;
+}
+
+ul li.item-menu{
+    transition: 1s;
+
+}
 
 
 

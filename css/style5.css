@@ -59,9 +59,9 @@ li{
 
 #menu {
 	background: #048286;
-	height: 45px;
+	height: 50px;
 	padding-left: 18px;
-	border-radius: 10px;
+	border-radius: 50px;
 }
 #menu ul, #menu li {
 	margin: 0 auto;
@@ -79,7 +79,7 @@ li{
 #menu a {
 	display: block;
 	line-height: 45px;
-	padding: 0 14px;
+	padding: 0 20px;
 	text-decoration: none;
 	color: #FFFFFF;
 	font-size: 16px;
@@ -89,8 +89,8 @@ li{
 	margin-left: 5px;
 }
 #menu li a:hover {
-	color: #000000dc;
-	background: #F2F2F2;
+	color: #15837ddc;
+	background: #b8f1f0;
 }
 #menu input {
 	display: none;
@@ -118,7 +118,7 @@ li{
 	height: auto;
 	overflow: hidden;
 	width: 170px;
-	background: #444444;
+	background: #048286;
 	position: absolute;
 	z-index: 99;
 	display: none;
@@ -147,7 +147,8 @@ li{
 	#menu li {display:block;float:none;width:auto;}
 	#menu input, #menu label {position:absolute;top:0;left:0;display:block}
 	#menu input {z-index:4}
-	#menu input:checked + label {color:#5fcddb}
+	#menu input:checked + label {color:#6acdd4b7}
 	#menu input:checked + label:before {content:"\00d7"}
 	#menu input:checked ~ ul {display:block}
 }
+

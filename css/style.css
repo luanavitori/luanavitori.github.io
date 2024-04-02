@@ -29,7 +29,12 @@ img{
     border-radius: 25px;
     margin-left: 40px;
     padding: 5px;
+
     
+}
+main{
+	display: flex;
+	justify-content:space-between ;
 }
 
 body{

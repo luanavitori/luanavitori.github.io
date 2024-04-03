@@ -240,48 +240,12 @@ a:hover {
 	}
 }
 
-* {
-	font-family: 'Inter', sans-serif;
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
-	letter-spacing: 1px;
-}
-
-footer{
+footer {
+	background-color: #169ba0;
+	color: #fff;
+	text-align: center;
+	padding: 20px;
+	position: fixed;
+	bottom: 0;
 	width: 100%;
-	color: #048286;
-}
-
-#footer-content{
-	background-color: #b8f1f0;
-	display: grid;
-	grid-template-columns: repeat(2, 1fr);
-	padding: 3rem 3.5rem;
-}
- 
-#footer-contacts h1{
-	margin-bottom: 0.75rem;
-}
-#footer social-media{
-	display: flex;
-	gap: 2rem;
-	margin-top: 1.5rem;
-}
-#footer social-media .footer-link{
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	height: 2.5rem;
-	width: 2.5rem;
-	color: #444444;
-	border-radius: 50%;
-
-}
-#Instagram{
-	background-color: linear-gradient(#7f3c97, #ff299f, #ff9807);
-}
-
-#Email{
-	background-color: red;
 }

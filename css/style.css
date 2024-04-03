@@ -240,11 +240,11 @@ a:hover {
 }
 
 footer {
-	background-color: #333;
+	background-color:#048286;
 	color: #fff;
 	text-align: center;
 	padding: 15px;
-	width: 50%;
+	width: 90%;
 	position: absolute;
 	bottom: 0;
 }

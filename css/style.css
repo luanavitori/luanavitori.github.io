@@ -241,11 +241,12 @@ a:hover {
 footer{
 	background-color: #048286;
 	color:#444444
-    padding: 20px;
+    padding: 10px;
     text-align: center;
     position: fixed;
     bottom: 0;
     width: 100%;
+	height: 100%;
 	display: block;
 }
 

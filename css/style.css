@@ -239,18 +239,11 @@ a:hover {
 }
 
 footer{
-	background-color: #048286;
-	color:#444444
+	background-color:#048286;
     padding: 10px;
     text-align: center;
     position: fixed;
     bottom: 0;
     width: 100%;
-	display: block;
 }
 
-body {
-    background: beige;
-    margin: 0;
-    font-family: 'Arial', sans-serif;
-}

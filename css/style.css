@@ -239,7 +239,7 @@ a:hover {
 }
 
 footer{
-	background-color: #21c5aa;
+	background-color: #048286;
 	color:#444444
     padding: 10px;
     text-align: center;
@@ -247,4 +247,10 @@ footer{
     bottom: 0;
     width: 100%;
 	display: block;
+}
+
+body {
+    background: beige;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
 }

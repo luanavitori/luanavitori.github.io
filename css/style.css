@@ -1,4 +1,5 @@
-h1, h2 {
+h1,
+h2 {
 	color: #048286;
 	margin-left: 40px;
 }
@@ -238,14 +239,13 @@ a:hover {
 	}
 }
 
-footer{
+footer {
 	background-color: #048286;
-	color:#444444
-    padding: 10px;
-    text-align: center;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
+	color: #444444 padding: 10px;
+	text-align: center;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
 	display: block;
 	display: flex;
 	flex-direction: column;
@@ -253,7 +253,8 @@ footer{
 }
 
 body {
-    background: beige;
-    margin: 0;
-    font-family: 'Arial', sans-serif;
+	background: beige;
+	margin: 0;
+	padding: 0;
+	font-family: Arial, sans-serif;
 }

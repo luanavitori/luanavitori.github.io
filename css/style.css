@@ -244,9 +244,6 @@ a:hover {
 	flex-direction: column;
 	min-height: 100vh;
 }
-.content {
-	flex: 1;
-}
 footer {
 	background-color: #333;
 	color: #fff;

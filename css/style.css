@@ -1,5 +1,4 @@
-h1,
-h2 {
+h1, h2 {
 	color: #048286;
 	margin-left: 40px;
 }
@@ -241,9 +240,9 @@ a:hover {
 
 footer {
 	background-color:#048286;
-	color: #fff;
+	color: #000000;
 	text-align: center;
-	padding: 15px;
+	padding: 20px;
 	width: 90%;
 	position: absolute;
 	bottom: 0;

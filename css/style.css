@@ -239,11 +239,14 @@ a:hover {
 }
 
 footer{
-	background-color:#048286;
+	background-color: #048286;
     padding: 10px;
     text-align: center;
     position: fixed;
     bottom: 0;
-    width: 100%;
+    width: 90%;
+    display: block;
+    unicode-bidi: isolate;
 }
+
 

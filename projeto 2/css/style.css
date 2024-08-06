@@ -18,6 +18,7 @@
 img{
     width: 80%;
     border: 6px solid #800505;
+
 }
 
 p{
@@ -26,5 +27,14 @@ p{
 
 h1{
     font-size: 100%;
+
 }
+
+.arg{
+    width: 80%;
+    border: 6px solid #098ad4;
+}
+
+
+
 

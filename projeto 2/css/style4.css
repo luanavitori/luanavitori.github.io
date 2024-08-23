@@ -33,26 +33,27 @@ p{
     gap: 20px;
 }
 
-img.arg{
-    margin-left: 595px;
-    margin-right: 500px;
-    border: 5px solid #5786c5;
+img.bra{
+    width: 895px;
+    margin-left: 500px;
+    margin-right: 585px;
+    border: 5px solid #295514;
  
 }
 
-img.emp{
+img.brig{
     border: 5px solid #af1515;
     width: 400px;
     height: 200px;
 }
 
-img.mat{
+img.fei{
     border: 5px solid #af1515;
     width: 400px;
     height: 200px;
 }
 
-img.cho{
+img.pq{
     border: 5px solid #af1515;
     width: 400px;
     height: 200px;
@@ -75,7 +76,7 @@ p{
 }
 
 h1{
-    font-size: 120%;
+    font-size: 110%;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
@@ -84,5 +85,3 @@ p.com{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     text-align: center;
 }
-
-

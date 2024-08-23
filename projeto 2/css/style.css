@@ -6,35 +6,127 @@
     justify-content: space-around;
     gap: 15px;
     padding: 15px;
+    
 }
 .div-card{
-    width: 30%;
-    min-width: 280px;
+    width: 412px;
+    height: 480px;
+    min-width: 300px;
     border: #ee4c4c;
     display: flex;
     flex-direction: column;
     align-items: center;
-}
-img{
-    width: 80%;
-    border: 6px solid #800505;
-
+    background-color: #ffffff96;
 }
 
 p{
-    font-size: 160%;
+    font-size: 150%;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 10px 20px;
+    flex: 1 1 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+img.arg{
+    border: 5px solid #5786c5;
+    width: 400px;
+    height: 200px;
+
+    
+}
+
+
+img.bol{
+    border: 5px solid #af1515;
+    width: 400px;
+    height: 200px;
+
+}
+
+img.bra{
+    border: 5px solid #295514;
+    width: 400px;
+    height: 200px;
+}
+
+img.chi{
+    border: 5px solid #eb2929;
+    width: 400px;
+    height: 200px;
+}
+
+img.col{
+    border: 5px solid #e9c217;
+    width: 400px;
+    height: 200px;
+
+}
+
+img.equ{
+    border: 5px solid #0b4f86;
+    width: 400px;
+    height: 200px;
+}
+
+img.gui{
+    border: 5px solid #407429;
+    width: 400px;
+    height: 200px;
+}
+
+img.par{
+    border: 5px solid #144770;
+    width: 400px;
+    height: 200px;
+}
+
+img.peru{
+    border: 5px solid #800505;
+    width: 400px;
+    height: 200px;
+}
+
+img.suri{
+    border: 5px solid #295514;
+    width: 400px;
+    height: 200px;
+}
+
+img.uru{
+    border: 5px solid #0b4f86;
+    width: 400px;
+    height: 200px;
+}
+
+img.vene{
+    border: 5px solid #af1515;
+    width: 400px;
+    height: 200px;
+}
+
+:root{
+    background-color: rgba(235, 132, 132, 0.918);
 }
 
 h1{
-    font-size: 100%;
+    font-size: 120%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+img.amer{
+    width: 700px;
+    height: 400px;
+    margin-left: 580px;
+    margin-right: 500px;
+    border: 5px solid #800505;
 
 }
 
-.arg{
-    width: 80%;
-    border: 6px solid #098ad4;
+p.amer{
+    font-size: 200%;
+    background-color: #cc5959;
 }
-
-
-
-

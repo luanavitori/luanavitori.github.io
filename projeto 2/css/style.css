@@ -1,148 +1,11 @@
-/*
-.div-cards{
-    border: 6px solid #800505;
-    display:flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: space-around;
-    gap: 15px;
-    padding: 15px;
-    
-}
-.div-card{
-    width: 412px;
-    height: 480px;
-    min-width: 300px;
-    border: #ee4c4c;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: #ffffff96;
-}
-
-p{
-    font-size: 150%;
-    text-align: center;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    padding: 10px 20px;
-    flex: 1 1 100px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    gap: 20px;
-}
-
-img.arg{
-    border: 5px solid #5786c5;
-    width: 400px;
-    height: 200px;
-
-    
-}
-
-
-img.bol{
-    border: 5px solid #af1515;
-    width: 400px;
-    height: 200px;
-
-}
-
-img.bra{
-    border: 5px solid #295514;
-    width: 400px;
-    height: 200px;
-}
-
-img.chi{
-    border: 5px solid #eb2929;
-    width: 400px;
-    height: 200px;
-}
-
-img.col{
-    border: 5px solid #e9c217;
-    width: 400px;
-    height: 200px;
-
-}
-
-img.equ{
-    border: 5px solid #0b4f86;
-    width: 400px;
-    height: 200px;
-}
-
-img.gui{
-    border: 5px solid #407429;
-    width: 400px;
-    height: 200px;
-}
-
-img.par{
-    border: 5px solid #144770;
-    width: 400px;
-    height: 200px;
-}
-
-img.peru{
-    border: 5px solid #800505;
-    width: 400px;
-    height: 200px;
-}
-
-img.suri{
-    border: 5px solid #295514;
-    width: 400px;
-    height: 200px;
-}
-
-img.uru{
-    border: 5px solid #0b4f86;
-    width: 400px;
-    height: 200px;
-}
-
-img.vene{
-    border: 5px solid #af1515;
-    width: 400px;
-    height: 200px;
-}
-
-:root{
-    background-color: rgba(235, 132, 132, 0.918);
-}
-
-h1{
-    font-size: 120%;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
-
-img.amer{
-    width: 700px;
-    height: 400px;
-    margin-left: 580px;
-    margin-right: 500px;
-    border: 5px solid #800505;
-
-}
-
-p.amer{
-    font-size: 200%;
-    background-color: #cc5959;
-}
-
-*/
-
 :root {
-    --cor-primaria: #800;
-    --cor-secundaria: #ee4c4c;
-    --cor-contraste: #ee4c4c;
-    --cor-fundo: rgba(235, 132, 132, 0.918);
-    --cor-texto: #333333;
-    --cor-branco: #ffffff;
+    --cor-primaria: #800000; /* Marrom escuro */
+    --cor-fundo: #cc5959;    /* Vermelho claro */
+    --cor-contraste: #ee4c4c; /* Vermelho mais claro */
+    --cor-secundaria: rgba(235, 132, 132, 0.918); /* Cor secundária transparente */
+    --cor-texto: #333333;    /* Cinza escuro */
+    --cor-branco: #ffffff;   /* Branco */
 }
-
 
 body {
     font-family: Arial, sans-serif;
@@ -151,7 +14,6 @@ body {
     background-color: var(--cor-fundo);
     color: var(--cor-texto);
 }
-
 
 .amer {
     text-align: center;
@@ -163,17 +25,19 @@ body {
 }
 
 .amer img {
-    width: 100%;
-    height: 100%;
-    max-width: 100%;
+    width: 50%; /* Reduzido para 80% da largura do contêiner */
+    height: 50%;
+    max-width: 80%; /* Mantido para limitar a largura máxima */
     border-radius: 8px;
 }
 
 .amer p {
-    font-size: 200%;
-    background-color: #cc5959;
+    font-size: 2rem;
+    background-color: var(--cor-fundo);
+    color: var(--cor-branco); /* Cor de texto branca para melhor contraste */
+    padding: 10px;
+    border-radius: 4px;
 }
-
 
 .div-cards {
     display: flex;
@@ -184,7 +48,7 @@ body {
 }
 
 .div-card {
-    background-color: var(--cor-branco);
+    background-color: var(--cor-secundaria);
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     overflow: hidden;
@@ -197,11 +61,17 @@ body {
 
 .div-card img {
     width: 100%;
-    height: 200px;
+    height: 150px; /* Reduzido de 200px para 150px */
     object-fit: cover;
     border-bottom: 2px solid var(--cor-primaria);
 }
 
+.div-card img.amer{
+    width: 150px;
+    height: 150px; /* Reduzido de 200px para 150px */
+    object-fit: cover;
+    border-bottom: 2px solid var(--cor-primaria);
+}
 .div-card p {
     font-weight: bold;
     margin: 10px 0;
@@ -211,7 +81,6 @@ body {
     font-size: 0.9rem;
     margin: 10px 0;
 }
-
 
 @media (max-width: 1024px) {
     .div-card {
@@ -226,8 +95,8 @@ body {
 }
 
 @media (max-width: 480px) {
-    .amor p {
-        font-size: 0.9rem;
+    .amer p {
+        font-size: 1rem; /* Ajustado de 0.9rem para 1rem */
     }
     
     .div-card img {
@@ -238,3 +107,6 @@ body {
         font-size: 0.8rem;
     }
 }
+
+
+

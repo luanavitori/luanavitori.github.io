@@ -1,0 +1,155 @@
+:root {
+    --cor-primaria: #800;
+    --cor-secundaria: #ee4c4c;
+    --cor-contraste: #ee4c4c;
+    --cor-fundo: rgba(235, 132, 132, 0.918);
+    --cor-texto: #333333;
+    --cor-branco: #ffffff;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: var(--cor-fundo);
+    color: var(--cor-texto);
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+
+header {
+    background-color: var(--cor-primaria);
+    padding: 10px 0;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: var(--cor-branco);
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: var(--cor-contraste);
+}
+
+
+.sob {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    text-align: center;
+    background-color: var(--cor-branco);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.sob h2 {
+    color: var(--cor-primaria);
+    margin-bottom: 20px;
+}
+
+.sob table {
+    width: 100%;
+    margin-bottom: 20px;
+    border-collapse: collapse;
+}
+
+.sob th, .sob td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.sob th {
+    background-color: var(--cor-secundaria);
+    color: var(--cor-branco);
+}
+
+.sob img.lu {
+    width: 300px; 
+    height: 300px; 
+    object-fit: cover; 
+    margin-top: 20px;
+    border-radius: 0; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: 5px solid #800;
+}
+
+
+footer {
+    background-color: var(--cor-primaria);
+    color: var(--cor-branco);
+    text-align: center;
+    padding: 20px 0;
+    margin-top: auto;
+}
+
+footer p {
+    margin: 0;
+}
+
+footer .redes-sociais {
+    margin-top: 10px;
+}
+
+footer .redes-sociais a {
+    margin: 0 10px;
+}
+
+footer .redes-sociais img {
+    width: 24px;
+    height: 24px;
+    filter: invert(1);
+}
+
+footer .redes-sociais a:hover img {
+    filter: invert(0.7);
+}
+
+
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+}
+
+@media (max-width: 480px) {
+    .sob {
+        padding: 10px;
+        margin: 20px auto;
+    }
+
+    .sob img.lu {
+        width: 120px; 
+        height: 120px;
+    }
+
+    footer .redes-sociais img {
+        width: 20px;
+        height: 20px;
+    }
+}
+
+
+
+

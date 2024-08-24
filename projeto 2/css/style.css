@@ -1,3 +1,4 @@
+/*
 .div-cards{
     border: 6px solid #800505;
     display:flex;
@@ -129,4 +130,111 @@ img.amer{
 p.amer{
     font-size: 200%;
     background-color: #cc5959;
+}
+
+*/
+
+:root {
+    --cor-primaria: #800;
+    --cor-secundaria: #ee4c4c;
+    --cor-contraste: #ee4c4c;
+    --cor-fundo: rgba(235, 132, 132, 0.918);
+    --cor-texto: #333333;
+    --cor-branco: #ffffff;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: var(--cor-fundo);
+    color: var(--cor-texto);
+}
+
+
+.amer {
+    text-align: center;
+    padding: 20px;
+    background-color: var(--cor-branco);
+    border-radius: 8px;
+    margin: 20px auto;
+    max-width: 1000px;
+}
+
+.amer img {
+    width: 100%;
+    height: 100%;
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+.amer p {
+    font-size: 200%;
+    background-color: #cc5959;
+}
+
+
+.div-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.div-card {
+    background-color: var(--cor-branco);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    max-width: 300px;
+    flex: 1 1 calc(33% - 20px);
+    box-sizing: border-box;
+    text-align: center;
+    padding: 10px;
+}
+
+.div-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-bottom: 2px solid var(--cor-primaria);
+}
+
+.div-card p {
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.div-card h1 {
+    font-size: 0.9rem;
+    margin: 10px 0;
+}
+
+
+@media (max-width: 1024px) {
+    .div-card {
+        flex: 1 1 calc(50% - 20px);
+    }
+}
+
+@media (max-width: 768px) {
+    .div-card {
+        flex: 1 1 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .amor p {
+        font-size: 0.9rem;
+    }
+    
+    .div-card img {
+        height: 150px;
+    }
+
+    .div-card h1 {
+        font-size: 0.8rem;
+    }
 }

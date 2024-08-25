@@ -1,90 +1,121 @@
-:root {
-    --cor-primaria: #800000; /* Marrom escuro */
-    --cor-fundo: #cc5959;    /* Vermelho claro */
-    --cor-contraste: #ee4c4c; /* Vermelho mais claro */
-    --cor-secundaria: rgba(235, 132, 132, 0.918); /* Cor secundária transparente */
-    --cor-texto: #333333;    /* Cinza escuro */
-    --cor-branco: #ffffff;   /* Branco */
-}
-
 body {
-    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: var(--cor-fundo);
-    color: var(--cor-texto);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #eb8484ea; 
 }
 
-.amer {
-    text-align: center;
-    padding: 20px;
-    background-color: var(--cor-branco);
-    border-radius: 8px;
-    margin: 20px auto;
-    max-width: 1000px;
+header {
+    background-color: #800505; 
+    padding: 10px 0;
 }
 
-.amer img {
-    width: 50%; /* Reduzido para 80% da largura do contêiner */
-    height: 50%;
-    max-width: 80%; /* Mantido para limitar a largura máxima */
-    border-radius: 8px;
+header nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.amer p {
-    font-size: 2rem;
-    background-color: var(--cor-fundo);
-    color: var(--cor-branco); /* Cor de texto branca para melhor contraste */
-    padding: 10px;
-    border-radius: 4px;
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+header nav ul li {
+    display: inline-block;
+}
+
+header nav ul li a {
+    color: #ffffff; 
+    text-decoration: none;
+    padding: 10px 20px;
+    transition: background-color 0.3s;
+}
+
+header nav ul li a:hover {
+    background-color: #ee4c4c; 
 }
 
 .div-cards {
+    border: 6px solid #800505; 
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-    gap: 20px;
-    padding: 20px;
+    justify-content: space-around;
+    gap: 15px;
+    padding: 15px;
 }
 
 .div-card {
-    background-color: var(--cor-secundaria);
+    background-color: #ffffff; 
+    border: 2px solid #eb8484ea; 
     border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    overflow: hidden;
-    max-width: 300px;
-    flex: 1 1 calc(33% - 20px);
-    box-sizing: border-box;
-    text-align: center;
-    padding: 10px;
-}
-
-.div-card img {
     width: 100%;
-    height: 150px; /* Reduzido de 200px para 150px */
-    object-fit: cover;
-    border-bottom: 2px solid var(--cor-primaria);
+    max-width: 412px;
+    flex: 1 1 calc(33.333% - 30px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+    box-sizing: border-box;
 }
 
-.div-card img.amer{
-    width: 150px;
-    height: 150px; /* Reduzido de 200px para 150px */
-    object-fit: cover;
-    border-bottom: 2px solid var(--cor-primaria);
-}
-.div-card p {
-    font-weight: bold;
-    margin: 10px 0;
+img {
+    display: block;
+    margin: 0 auto;
+    border: 5px solid #eb8484ea; 
+    width: 100%;
+    max-width: 300px; 
+    height: auto;
 }
 
-.div-card h1 {
-    font-size: 0.9rem;
-    margin: 10px 0;
+img.amer {
+    max-width: 600px; 
+    border: none; 
+    width: 500px;
+    height: 500px;
+}
+
+p {
+    font-size: 1.3rem;
+    margin: 0;
+    padding: 10px 20px;
+    text-align: center;
+    background-color: #eb8484ea; 
+}
+
+h1 {
+    font-size: 1.2rem;
+    margin-top: 20px;
+    color: #800505; 
+}
+p.lu{
+    background-color: #800505;
+}
+img.lu{
+    display: block;
+    margin: 0 auto;
+    border: 5px solid #800505; 
+    width: 100%;
+    max-width: 300px; 
+    height: auto;
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #800505; 
+    color: #ffffff; 
+}
+
+footer .redes-sociais img {
+    max-width: 30px;
+    height: auto;
 }
 
 @media (max-width: 1024px) {
     .div-card {
-        flex: 1 1 calc(50% - 20px);
+        flex: 1 1 calc(50% - 30px);
     }
 }
 
@@ -92,21 +123,25 @@ body {
     .div-card {
         flex: 1 1 100%;
     }
+
+    p {
+        font-size: 1.4rem;
+        padding: 5px 10px;
+    }
 }
 
 @media (max-width: 480px) {
-    .amer p {
-        font-size: 1rem; /* Ajustado de 0.9rem para 1rem */
-    }
-    
-    .div-card img {
-        height: 150px;
-    }
-
-    .div-card h1 {
-        font-size: 0.8rem;
+    p {
+        font-size: 1.2rem;
+        padding: 5px;
     }
 }
+
+
+
+
+
+
 
 
 

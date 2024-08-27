@@ -4,7 +4,6 @@
     --cor-fundo: #eb8484ea;
     --cor-branco: #ffffff;
     --cor-borda: #af1515;
-    --cor-borda-alternativa: #5786c5;
 }
 
 body {
@@ -59,7 +58,6 @@ p.emp {
 img.arg {
     display: block; 
     margin: 0 auto; 
-    border: 5px solid var(--cor-borda-alternativa);
     max-width: 100%;
     height: auto;
 }

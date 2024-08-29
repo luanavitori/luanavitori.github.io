@@ -53,7 +53,6 @@ img.col {
     width: 100%;
     max-width: 600px; 
     margin: 0 auto;
-    border: 5px solid var(--cor-borda-amarela);
     display: block;
 }
 

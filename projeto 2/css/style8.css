@@ -1,0 +1,134 @@
+:root {
+    --cor-primaria: #800505;
+    --cor-secundaria: #ee4c4c;
+    --cor-fundo: rgba(235, 132, 132, 0.918);
+    --cor-branco: #ffffff96;
+    --cor-borda-amarela: #ffd414;
+    --cor-borda-vermelha: #af1515;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: var(--cor-fundo);
+}
+
+
+.div-cards {
+    border: 6px solid var(--cor-primaria);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 15px;
+    padding: 15px;
+}
+
+
+.div-card {
+    width: 100%;
+    max-width: 412px;
+    height: auto;
+    min-width: 300px;
+    background-color: var(--cor-branco);
+    border: 2px solid var(--cor-secundaria);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+
+p {
+    font-size: 1.6rem;
+    margin: 0 auto;
+    padding: 10px 20px;
+    text-align: center;
+    background-color: var(--cor-fundo);
+}
+
+
+img.gui {
+    width: 100%;
+    max-width: 600px; 
+    margin: 0 auto;
+    display: block;
+}
+
+    
+
+
+
+img.pal,
+img.bol,
+img.pao {
+    border: 5px solid var(--cor-borda-vermelha);
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    margin: 5px auto;
+    display: block;
+}
+
+
+p.emp {
+    font-size: 2rem;
+    margin-left: 100px;
+    text-align: center;
+}
+
+
+h1 {
+    font-size: 1.1rem;
+    margin-top: 20px;
+    text-align: center;
+}
+
+
+p.com {
+    font-size: 2rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    color: var(--cor-primaria);
+}
+
+
+@media (max-width: 1024px) {
+    .div-card {
+        flex: 1 1 calc(50% - 30px); 
+    }
+
+    p {
+        font-size: 1.4rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .div-card {
+        flex: 1 1 100%; 
+    }
+
+    p {
+        font-size: 1.2rem;
+        padding: 5px 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    p {
+        font-size: 1rem;
+        padding: 5px;
+    }
+
+    img.gui {
+        max-width: 100%;
+    }
+
+    img.pal,
+    img.bol,
+    img.pao {
+        max-width: 100%;
+        height: auto;
+    }
+}

@@ -11,7 +11,7 @@ body {
 }
 
 section {
-    background-color: rgba(235, 132, 132, 0.918);
+    background-color: #800;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1)
@@ -23,7 +23,7 @@ table {
     border-spacing: 2px;
     width: 100%;
     border-collapse: collapse;
-    background-color: #ffffff;
+    background-color: #eb8484;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 
@@ -35,7 +35,7 @@ thead {
 th, td {
     padding: 12px; 
     text-align: left;
-    border-bottom: 1px solid #dee2e6;
+    border-bottom: 1px solid #eb8484;
 }
 
 th {
@@ -44,8 +44,9 @@ th {
 }
 
 td {
-    font-size: 1rem; 
+    font-size: 1.1rem; 
     font-family:Georgia, 'Times New Roman', Times, serif;
+    background-color: #f8f9fa;
 }
 
 td a {

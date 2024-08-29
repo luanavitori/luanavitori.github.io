@@ -7,7 +7,6 @@
     --cor-branco: #ffffff;
 }
 
-
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -18,7 +17,6 @@ body {
     flex-direction: column;
     min-height: 100vh;
 }
-
 
 header {
     background-color: var(--cor-primaria);
@@ -46,7 +44,6 @@ nav ul li a {
 nav ul li a:hover {
     color: var(--cor-contraste);
 }
-
 
 .sob {
     max-width: 800px;
@@ -81,14 +78,17 @@ nav ul li a:hover {
 }
 
 .sob img.lu {
-    width: 300px; 
-    height: 300px; 
+    width: 100%; 
+    max-width: 300px; 
+    height: auto; 
+    aspect-ratio: 1 / 1; 
     object-fit: cover; 
     margin-top: 20px;
     border-radius: 0; 
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    border: 5px solid #800;
+    border: 5px solid var(--cor-primaria);
 }
+
 
 
 footer {
@@ -121,7 +121,6 @@ footer .redes-sociais a:hover img {
     filter: invert(0.7);
 }
 
-
 @media (max-width: 768px) {
     nav ul {
         flex-direction: column;
@@ -130,6 +129,20 @@ footer .redes-sociais a:hover img {
 
     nav ul li {
         margin: 10px 0;
+    }
+
+    .sob {
+        padding: 15px;
+        margin: 30px auto;
+    }
+
+    .sob table, .sob th, .sob td {
+        font-size: 14px;
+    }
+
+    footer .redes-sociais img {
+        width: 20px;
+        height: 20px;
     }
 }
 
@@ -140,8 +153,8 @@ footer .redes-sociais a:hover img {
     }
 
     .sob img.lu {
-        width: 120px; 
-        height: 120px;
+        max-width: 150px; 
+        height: auto;
     }
 
     footer .redes-sociais img {

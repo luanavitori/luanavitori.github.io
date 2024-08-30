@@ -132,9 +132,7 @@ h1 {
     color: #800505; 
 }
 
-p.lu {
-    background-color: #800505;
-}
+
 
 img.lu {
     display: block;
@@ -142,18 +140,6 @@ img.lu {
     border: 5px solid #800505; 
     width: 100%;
     max-width: 300px; 
-    height: auto;
-}
-
-footer {
-    text-align: center;
-    padding: 20px 0;
-    background-color: #800505; 
-    color: #ffffff; 
-}
-
-footer .redes-sociais img {
-    max-width: 30px;
     height: auto;
 }
 
@@ -174,28 +160,12 @@ footer .redes-sociais img {
         font-size: 1.4rem;
         padding: 5px 10px;
     }
-
-    header nav ul {
-        flex-direction: column;
-    }
-
-    header nav ul li {
-        margin-bottom: 10px;
-    }
 }
 
 @media (max-width: 480px) {
     p {
         font-size: 1.2rem;
         padding: 5px;
-    }
-
-    header nav ul li a {
-        padding: 5px 10px;
-    }
-
-    header nav ul li {
-        font-size: 16px;
     }
 }
 

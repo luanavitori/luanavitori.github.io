@@ -1,0 +1,14 @@
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #800505; 
+    color: #ffffff; 
+}
+
+footer .redes-sociais img {
+    max-width: 30px;
+    height: auto;
+}
+p.lu {
+    background-color: #800505;
+}

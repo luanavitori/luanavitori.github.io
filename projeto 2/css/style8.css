@@ -15,6 +15,78 @@ body {
 }
 
 
+header {
+    background-color: #800505; 
+    padding: 10px 0;
+}
+
+header nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    position: relative;
+}
+
+header nav ul li a {
+    color: #ffffff; 
+    text-decoration: none;
+    padding: 10px 20px;
+    transition: background-color 0.3s;
+    display: block;
+    border-radius: 4px; 
+}
+
+header nav ul li a:hover {
+    background-color: #ee4c4c; 
+}
+
+.sub-menus {
+    display: none; 
+    position: absolute;
+    top: 100%; 
+    left: 0;
+    background-color: #800505;
+    border: 2px solid #ee4c4c;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    padding: 10px;
+    z-index: 1000; 
+}
+
+.sub-menus li {
+    display: block;
+}
+
+.sub-menus li a {
+    padding: 10px;
+    color: #ffffff;
+    border-radius: 4px;
+}
+
+.sub-menus li a:hover {
+    background-color: #ee4c4c;
+}
+
+header nav ul li:hover .sub-menus {
+    display: block; 
+}
+
+#responsive-menu {
+    display: none; 
+}
+
 .div-cards {
     border: 6px solid var(--cor-primaria);
     display: flex;

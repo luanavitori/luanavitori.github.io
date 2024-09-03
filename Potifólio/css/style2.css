@@ -90,7 +90,6 @@ nav ul li a:hover {
 }
 
 
-
 footer {
     background-color: var(--cor-primaria);
     color: var(--cor-branco);
@@ -120,6 +119,9 @@ footer .redes-sociais img {
 footer .redes-sociais a:hover img {
     filter: invert(0.7);
 }
+
+
+
 
 @media (max-width: 768px) {
     nav ul {
